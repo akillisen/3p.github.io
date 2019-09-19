@@ -1,0 +1,150 @@
+<!DOCSYPE/>
+<html>
+<head>
+	<link rel="stylesheet" href="finisher.css" type="text/css" >
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		body{
+			min-height:100%;
+			min-width:100%;
+			display:flex;
+		}
+		.column1{
+			/*width:25%;
+			height:100%;*/
+			color: black;
+			background-color:white;
+		}
+		.nav {
+			position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+			z-index: 1; /* Stay on top */
+			top: 0; /* Stay at the top */
+			left: 0;
+			/*width:25%;
+			height:100%;*/
+			overflow-x: hidden; /* Disable horizontal scroll */
+			padding-top: 20px;
+			background-color:white;
+		}
+		/* The navigation menu links */
+		.column1 a {
+			padding: 2px 3px 2px 2px;
+			text-decoration: none;
+			font-size: 25px;
+			color: black;
+			display: block;
+		}
+		
+		/* When you mouse over the navigation links, change their color */
+		.column1 a:hover {
+			color: #f1f1f1;
+		}
+		.column2{
+			width:50%;
+			max-height:100%; 
+			overflow-x:hidden;
+			overflow-y:auto;
+			margin-left:25%;flex:50%;
+		}
+		.column2 h2{
+			text-align:center;
+			text-transform:uppercase;
+			line-height:70px;
+			font-family:verdana,arial;
+			background-color:silver;
+			font-style:bold;
+			letter-spacing:7px;
+			color:rgba(91,191,222,7);
+		}
+		.column2 p{
+			text-align:right;
+			font-family:serrif;
+			text-transform:lowercase;
+			line-height:50px;
+			background-color:white;
+			font-style:italic;
+			padding-right:5px;
+			color:rgba(125,240,72,6);
+		}
+
+		/*responsive rule for the whole page*/
+		@media screen and (max-width: 600px) {
+			body{
+				/*flex: none;*/
+				display:block;
+				width: 100%;
+				height: 100%;
+			}
+			.nav, .column1{
+			width: 100%;
+			height: auto;
+			overflow-y: auto;
+			overflow-x: hidden;
+			position: static;
+			}
+			.column2{
+				margin: auto;
+				width: 85%;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="column1 nav" style="" >
+		<a href="#" >physics</a>
+		<a href="#" >maths</a>
+		<a href="#" >chemistry</a>
+	</div>
+	
+	<div class="column2"  style="background-color:black; color:white;">
+		<h2>you're in our research page</h2>
+		<p>we welcome any suggestion</p><br>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	
+	<div class="column1" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	
+</body>
+</html>
